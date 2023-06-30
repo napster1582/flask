@@ -41,7 +41,7 @@ def buscar(busqueda, datos, n_resultados=5):
 
 texto_emb = parrafos
 
-@app.route('/embedding', methods=['POST'])
+@app.route('/embedding/cjaramillo', methods=['POST'])
 def buscar_handler():
     data = request.json
     busqueda = data['busqueda']
