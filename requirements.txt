@@ -11,5 +11,6 @@ click==7.1.2
 numpy>=1.21.0
 scipy<=1.11.1
 sklearn
+scikit-learn
 langchain>=0.0.220
 pypdf>=3.11.1
