@@ -10,7 +10,7 @@ from langchain.text_splitter import CharacterTextSplitter
 
 app = Flask(__name__)
 
-loader = PyPDFLoader("files/libro-carlos1cap.pdf")
+loader = PyPDFLoader("libro-carlos1cap.pdf")
 pages = loader.load_and_split()
 
 # Objeto que va a hacer los cortes en el texto
