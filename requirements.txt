@@ -13,3 +13,4 @@ scipy<=1.11.1
 scikit-learn
 langchain>=0.0.220
 pypdf>=3.11.1
+plotly>=5.0.0
